@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt Catalog Item" max_length="40" name="x_58872_needit_needit_catalog_item" sizeclass="11" type="collection">
+        <element label="Caller" mandatory="true" max_length="32" name="u_caller" reference="sys_user" type="reference"/>
+        <element label="Name to replace" mandatory="true" max_length="32" name="u_name_to_replace" reference="sys_user" type="reference"/>
+        <element label="Replaced with user" mandatory="true" max_length="32" name="u_replaced_with_user" reference="sys_user" type="reference"/>
+    </element>
+</database>
